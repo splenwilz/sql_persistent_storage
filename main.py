@@ -3,7 +3,8 @@ import sqlite3
 # test redeploy
 app = FastAPI()
 
-DB_PATH = "data.db"
+# DB_PATH = "data.db"
+DB_PATH = "/var/data/data.db"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
