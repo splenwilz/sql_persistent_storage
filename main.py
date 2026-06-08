@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import sqlite3
-# test redeploy
+# test redeploy on persistent storage
 app = FastAPI()
 
 # DB_PATH = "data.db"
